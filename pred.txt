@@ -1,0 +1,10 @@
+
+conda install -c conda-forge streamlit
+conda install pandas
+conda install -c conda-forge altair
+conda install numpy
+conda activate Streamlit
+conda activate dashboard_env
+conda activate streamlit_env
+
+streamlit run pred.py
